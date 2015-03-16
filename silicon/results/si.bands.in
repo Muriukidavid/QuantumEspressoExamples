@@ -1,0 +1,5 @@
+ &inputpp
+    prefix  = 'si'
+    outdir = 'tmp/'
+    filband = 'sibands.dat'
+ /
