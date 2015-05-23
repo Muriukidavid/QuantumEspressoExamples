@@ -1,5 +1,5 @@
 
-     Program BANDS v.5.0.2 (svn rev. 9656) starts on 13Mar2015 at 19:29:58 
+     Program BANDS v.5.0.2 (svn rev. 9656) starts on 23May2015 at 13:55:39 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -9,11 +9,20 @@
      http://www.quantum-espresso.org/quote.php
 
      Parallel version (MPI), running on     1 processors
-*** namelist &inputpp no longer valid: please use &bands instead
 
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-     Error in routine bands (1):
-     reading bands namelist
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   Info: using nr1, nr2, nr3 values from input
 
-     stopping ...
+   Info: using nr1s, nr2s, nr3s values from input
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      =  SLA  PW   PBX  PBC ( 1 4 3 4 0)
+     EXX-fraction              =        0.00
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         253     253     91                 2733     2733     609
+
